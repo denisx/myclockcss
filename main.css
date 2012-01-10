@@ -1,0 +1,313 @@
+.myClockJS {
+	padding: 5em;
+}
+
+.myClockJS b {
+	display: block;
+	width: 100%;
+}
+
+.myClockJS>div {
+	margin: 0 auto;
+	position: relative;
+	width: 251px;
+	height: 251px;
+	background-color: #f8f8ff;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-box-shadow: 10px 10px 20px gray;
+	-moz-box-shadow: 10px 10px 20px gray;
+	-ms-box-shadow: 10px 10px 20px gray;
+	-o-box-shadow: 10px 10px 20px gray;
+	box-shadow: 10px 10px 20px gray;
+}
+
+
+.myClockJS .arr>b {
+	position: absolute;
+	height: 100%;
+	left: 50%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+.myClockJS .arr>b>b {
+	position: absolute;
+	width: 100%;
+	-webkit-border-radius: 40% 40% 20% 20%;
+	-moz-border-radius: 40% 40% 20% 20%;
+	-ms-border-radius: 40% 40% 20% 20%;
+	-o-border-radius: 40% 40% 20% 20%;
+	border-radius: 40% 40% 20% 20%;
+}
+.myClockJS .arr>b:nth-child(1) {
+	width: 3%;
+	min-width: 1px;
+	margin-left: -1.4%;
+}
+.myClockJS .arr>b:nth-child(1)>b {
+	height: 43%;
+	top: 20%;
+	background-color: green;
+}
+.myClockJS .arr>b:nth-child(2) {
+	width: 2%;
+	min-width: 1px;
+	margin-left: -0.9%;
+}
+.myClockJS .arr>b:nth-child(2)>b {
+	height: 54%;
+	top: 10%;
+	background-color: blue;
+	-webkit-border-radius: 45% 45% 15% 15%;
+	-moz-border-radius: 45% 45% 15% 15%;
+	-ms-border-radius: 45% 45% 15% 15%;
+	-o-border-radius: 45% 45% 15% 15%;
+	border-radius: 45% 45% 15% 15%;
+}
+.myClockJS .arr>b:nth-child(3) {
+	width: 1%;
+	min-width: 1px;
+	margin-left: -0.4%;
+}
+.myClockJS .arr>b:nth-child(3)>b {
+	height: 64%;
+	top: 1.5%;
+	background-color: black;
+	-webkit-border-radius: 50% 50% 10% 10%;
+	-moz-border-radius: 50% 50% 10% 10%;
+	-ms-border-radius: 50% 50% 10% 10%;
+	-o-border-radius: 50% 50% 10% 10%;
+	border-radius: 50% 50% 10% 10%;
+}
+.myClockJS .arr>b:nth-child(4) {
+	width: 4%;
+	min-width: 1px;
+	margin-left: -1.9%;
+}
+.myClockJS .arr>b:nth-child(4) {
+	height: 4%;
+	top: 48%;
+	background-color: #cc0000;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+.myClockJS .seg>b {
+	position: absolute;
+	width: 0.5%;
+	height: 100%;
+	min-width: 1px;
+	left: 50%;
+	margin-left: -0.25%;
+}
+.myClockJS .seg> .h
+{
+	width: 0.8%;
+	margin-left: -0.4%;
+}
+
+.myClockJS .seg>b>b {
+	position: absolute;
+	width: 100%;
+	height: 3%;
+	background-color: #777;
+}
+.myClockJS .seg>b>b:first-child {
+	top: 0;
+	-webkit-border-radius: 0 0 50% 50%;
+	-moz-border-radius: 0 0 50% 50%;
+	-ms-border-radius: 0 0 50% 50%;
+	-o-border-radius: 0 0 50% 50%;
+	border-radius: 0 0 50% 50%;
+}
+.myClockJS .seg>b>b:last-child {
+	bottom: 0;
+	-webkit-border-radius: 50% 50% 0 0;
+	-moz-border-radius: 50% 50% 0 0;
+	-ms-border-radius: 50% 50% 0 0;
+	-o-border-radius: 50% 50% 0 0;
+	border-radius: 50% 50% 0 0;
+}
+.myClockJS .seg>b>b {
+	height: 3%;
+	background-color: #666;
+}
+.myClockJS .seg>.h>b {
+	height: 7%;
+}
+.myClockJS .seg>.h>b:first-child {
+	margin-top: -1.5%;
+}
+.myClockJS .seg>.h>b:last-child {
+	margin-bottom: -1.5%;
+}
+
+.myClockJS .seg>b:nth-child(1){ -webkit-transform: rotate(6deg); -moz-transform: rotate(6deg);  }
+.myClockJS .seg>b:nth-child(2){ -webkit-transform: rotate(12deg); -moz-transform: rotate(12deg);  }
+.myClockJS .seg>b:nth-child(3){ -webkit-transform: rotate(18deg); -moz-transform: rotate(18deg);  }
+.myClockJS .seg>b:nth-child(4){ -webkit-transform: rotate(24deg); -moz-transform: rotate(24deg);  }
+.myClockJS .seg>b:nth-child(5){ -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg);  }
+
+.myClockJS .seg>b:nth-child(6){ -webkit-transform: rotate(36deg); -moz-transform: rotate(36deg);  }
+.myClockJS .seg>b:nth-child(7){ -webkit-transform: rotate(42deg); -moz-transform: rotate(42deg);  }
+.myClockJS .seg>b:nth-child(8){ -webkit-transform: rotate(48deg); -moz-transform: rotate(48deg);  }
+.myClockJS .seg>b:nth-child(9){ -webkit-transform: rotate(54deg); -moz-transform: rotate(54deg);  }
+.myClockJS .seg>b:nth-child(10){ -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg);  }
+
+.myClockJS .seg>b:nth-child(11){ -webkit-transform: rotate(66deg); -moz-transform: rotate(66deg);  }
+.myClockJS .seg>b:nth-child(12){ -webkit-transform: rotate(72deg); -moz-transform: rotate(72deg);  }
+.myClockJS .seg>b:nth-child(13){ -webkit-transform: rotate(78deg); -moz-transform: rotate(78deg);  }
+.myClockJS .seg>b:nth-child(14){ -webkit-transform: rotate(84deg); -moz-transform: rotate(84deg);  }
+.myClockJS .seg>b:nth-child(15){ -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg);  }
+
+.myClockJS .seg>b:nth-child(16){ -webkit-transform: rotate(96deg); -moz-transform: rotate(96deg);  }
+.myClockJS .seg>b:nth-child(17){ -webkit-transform: rotate(102deg); -moz-transform: rotate(102deg);  }
+.myClockJS .seg>b:nth-child(18){ -webkit-transform: rotate(108deg); -moz-transform: rotate(108deg);  }
+.myClockJS .seg>b:nth-child(19){ -webkit-transform: rotate(114deg); -moz-transform: rotate(114deg);  }
+.myClockJS .seg>b:nth-child(20){ -webkit-transform: rotate(120deg); -moz-transform: rotate(120deg);  }
+
+.myClockJS .seg>b:nth-child(21){ -webkit-transform: rotate(126deg); -moz-transform: rotate(126deg);  }
+.myClockJS .seg>b:nth-child(22){ -webkit-transform: rotate(132deg); -moz-transform: rotate(132deg);  }
+.myClockJS .seg>b:nth-child(23){ -webkit-transform: rotate(138deg); -moz-transform: rotate(138deg);  }
+.myClockJS .seg>b:nth-child(24){ -webkit-transform: rotate(144deg); -moz-transform: rotate(144deg);  }
+.myClockJS .seg>b:nth-child(25){ -webkit-transform: rotate(150deg); -moz-transform: rotate(150deg);  }
+
+.myClockJS .seg>b:nth-child(26){ -webkit-transform: rotate(156deg); -moz-transform: rotate(156deg);  }
+.myClockJS .seg>b:nth-child(27){ -webkit-transform: rotate(162deg); -moz-transform: rotate(162deg);  }
+.myClockJS .seg>b:nth-child(28){ -webkit-transform: rotate(168deg); -moz-transform: rotate(168deg);  }
+.myClockJS .seg>b:nth-child(29){ -webkit-transform: rotate(174deg); -moz-transform: rotate(174deg);  }
+.myClockJS .seg>b:nth-child(30){ -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);  }
+
+/* hide non-hour segments */
+/*.myClockJS .seg>b {*/
+	/*display: none;*/
+/*}*/
+/*.myClockJS .seg>.h {*/
+	/*display: block;*/
+/*}*/
+/* // */
+
+
+
+
+
+.myClockJS .sym>b {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	left: 50%;
+	min-width: 1px;
+	margin-left: -9.9%;
+}
+
+.myClockJS .sym>b>b {
+	position: absolute;
+	width: 100%;
+	top: 6%;
+	font-size: 150%;
+	text-align: center;
+	font-family: sans-serif;
+	/*background-color: yellow;*/
+}
+.myClockJS .sym>b:nth-child(1)>b>b:after {content: '1'}
+.myClockJS .sym>b:nth-child(1) { -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg); }
+.myClockJS .sym>b:nth-child(1)>b { -webkit-transform: rotate(-30deg); -moz-transform: rotate(-30deg); }
+
+.myClockJS .sym>b:nth-child(2)>b>b:after {content: '2'}
+.myClockJS .sym>b:nth-child(2) { -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); }
+.myClockJS .sym>b:nth-child(2)>b { -webkit-transform: rotate(-60deg); -moz-transform: rotate(-60deg); }
+
+.myClockJS .sym>b:nth-child(3)>b>b:after {content: '3'}
+.myClockJS .sym>b:nth-child(3) { -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); }
+.myClockJS .sym>b:nth-child(3)>b { -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); }
+
+.myClockJS .sym>b:nth-child(4)>b>b:after {content: '4'}
+.myClockJS .sym>b:nth-child(4) { -webkit-transform: rotate(120deg); -moz-transform: rotate(120deg); }
+.myClockJS .sym>b:nth-child(4)>b { -webkit-transform: rotate(-120deg); -moz-transform: rotate(-120deg); }
+
+.myClockJS .sym>b:nth-child(5)>b>b:after {content: '5'}
+.myClockJS .sym>b:nth-child(5) { -webkit-transform: rotate(150deg); -moz-transform: rotate(150deg); }
+.myClockJS .sym>b:nth-child(5)>b { -webkit-transform: rotate(-150deg); -moz-transform: rotate(-150deg); }
+
+.myClockJS .sym>b:nth-child(6)>b>b:after {content: '6'}
+.myClockJS .sym>b:nth-child(6) { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); }
+.myClockJS .sym>b:nth-child(6)>b { -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); }
+
+.myClockJS .sym>b:nth-child(7)>b>b:after {content: '7'}
+.myClockJS .sym>b:nth-child(7) { -webkit-transform: rotate(210deg); -moz-transform: rotate(210deg); }
+.myClockJS .sym>b:nth-child(7)>b { -webkit-transform: rotate(-210deg); -moz-transform: rotate(-210deg); }
+
+.myClockJS .sym>b:nth-child(8)>b>b:after {content: '8'}
+.myClockJS .sym>b:nth-child(8) { -webkit-transform: rotate(240deg); -moz-transform: rotate(240deg); }
+.myClockJS .sym>b:nth-child(8)>b { -webkit-transform: rotate(-240deg); -moz-transform: rotate(-240deg); }
+
+.myClockJS .sym>b:nth-child(9)>b>b:after {content: '9'}
+.myClockJS .sym>b:nth-child(9) { -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); }
+.myClockJS .sym>b:nth-child(9)>b { -webkit-transform: rotate(-270deg); -moz-transform: rotate(-270deg); }
+
+.myClockJS .sym>b:nth-child(10)>b>b:after {content: '10'}
+.myClockJS .sym>b:nth-child(10) { -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); }
+.myClockJS .sym>b:nth-child(10)>b { -webkit-transform: rotate(-300deg); -moz-transform: rotate(-300deg); }
+
+.myClockJS .sym>b:nth-child(11)>b>b:after {content: '11'}
+.myClockJS .sym>b:nth-child(11) { -webkit-transform: rotate(330deg); -moz-transform: rotate(330deg); }
+.myClockJS .sym>b:nth-child(11)>b { -webkit-transform: rotate(-330deg); -moz-transform: rotate(-330deg); }
+
+.myClockJS .sym>b:nth-child(12)>b>b:after {content: '12'}
+.myClockJS .sym>b:nth-child(12) { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); }
+.myClockJS .sym>b:nth-child(12)>b { -webkit-transform: rotate(-360deg); -moz-transform: rotate(-360deg); }
+
+
+
+
+
+
+
+
+
+.myClockJS .arr>b:nth-child(1)
+, .myClockJS .arr>b:nth-child(2)
+, .myClockJS .arr>b:nth-child(3)
+{
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-fill-mode: both;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.myClockJS .arr>b:nth-child(1) {
+	-webkit-animation-duration: 86400s;
+	-moz-animation-duration: 86400s;
+	animation-duration: 86400s;
+}
+.myClockJS .arr>b:nth-child(2) {
+	-webkit-animation-duration: 3600s;
+	-moz-animation-duration: 3600s;
+	animation-duration: 3600s;
+}
+.myClockJS .arr>b:nth-child(3) {
+	-webkit-animation-duration: 60s;
+	-moz-animation-duration: 60s;
+	animation-duration: 60s;
+}

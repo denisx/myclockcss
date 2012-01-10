@@ -1,0 +1,97 @@
+/*15:11:14*/
+
+.myClockJS .arr>b:nth-child(1) {
+	-webkit-animation-name: arr1;
+	-moz-animation-name: arr1;
+	animation-name: arr1;
+}
+
+@-webkit-keyframes arr1 {
+	from {
+		-webkit-transform: rotate(96deg);
+	}
+	to {
+		-webkit-transform: rotate(456deg);
+	}
+}
+@-moz-keyframes arr1 {
+	from {
+		-moz-transform: rotate(96deg);
+	}
+	to {
+		-moz-transform: rotate(456deg);
+	}
+}
+@keyframes arr1 {
+	from {
+		transform: rotate(96deg);
+	}
+	to {
+		transform: rotate(456deg);
+	}
+}
+
+
+
+.myClockJS .arr>b:nth-child(2) {
+	-webkit-animation-name: arr2;
+	-moz-animation-name: arr2;
+	animation-name: arr2;
+}
+@-webkit-keyframes arr2 {
+	from {
+		-webkit-transform: rotate(67deg);
+	}
+	to {
+		-webkit-transform: rotate(427deg);
+	}
+}
+@-moz-keyframes arr2 {
+	from {
+		-moz-transform: rotate(67deg);
+	}
+	to {
+		-moz-transform: rotate(427deg);
+	}
+}
+@keyframes arr2 {
+	from {
+		transform: rotate(67deg);
+	}
+	to {
+		transform: rotate(427deg);
+	}
+}
+
+
+
+
+.myClockJS .arr>b:nth-child(3) {
+	-webkit-animation-name: arr3;
+	-moz-animation-name: arr3;
+	animation-name: arr3;
+}
+@-webkit-keyframes arr3 {
+	from {
+		-webkit-transform: rotate(84deg);
+	}
+	to {
+		-webkit-transform: rotate(444deg);
+	}
+}
+@-moz-keyframes arr3 {
+	from {
+		-moz-transform: rotate(84deg);
+	}
+	to {
+		-moz-transform: rotate(444deg);
+	}
+}
+@keyframes arr3 {
+	from {
+		transform: rotate(84deg);
+	}
+	to {
+		transform: rotate(444deg);
+	}
+}
